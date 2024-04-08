@@ -24,4 +24,8 @@ public class Calculator {
     public void setNumber2(int number2) {
         this.number2 = number2;
     }
+    public int soma(){
+        int res = number1 + number2;
+        return res;
+    }
 }
